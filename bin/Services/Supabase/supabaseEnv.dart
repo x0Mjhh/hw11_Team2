@@ -1,12 +1,11 @@
 import 'package:supabase/supabase.dart';
 
 class SupabaseEnv {
-  final _url = 'https://vcbyprxyzisvfbuxxeib.supabase.co';
+  final _url = 'https://sxkrpozapvaajvnqomgh.supabase.co';
   final _key =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZjYnlwcnh5emlzdmZidXh4ZWliIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY4NDIzMTEzMCwiZXhwIjoxOTk5ODA3MTMwfQ.0DBoHkZzsouVN52X3W5b5RVmduxltqTci8qpnvHekEA';
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4a3Jwb3phcHZhYWp2bnFvbWdoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY4NDc1MzIwOCwiZXhwIjoyMDAwMzI5MjA4fQ.apDIqjXgJEx-yha-Bqa4pd-BTJtXEerhSjDJoSV4Fog";
 
-  final _JWT =
-      '1zCqvEwBP3JxjuvLHGPYTIzYW6lfD7KaCz29CDz+7m5SNz/spW2L7fMFhTu6nOh9z6uuoaatsoacjiQu+CPFew==';
+  final _JWT ='+Kj645IUwhphn8C5YsYj4Mm4jd4O1VMBeVy9icWZfRxaBuwH9bL+NslMX6lWnw3fOZkWv6QeNxF+IbK0l7At9Q==';
 
   get getJWT {
     return _JWT;
